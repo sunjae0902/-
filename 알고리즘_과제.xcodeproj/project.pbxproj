@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28125D55295A445100908D0C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28125D54295A445100908D0C /* main.c */; };
 		28125D5C295A447100908D0C /* 과제1.c in Sources */ = {isa = PBXBuildFile; fileRef = 28125D5B295A447100908D0C /* 과제1.c */; };
 		28125D5E295A448200908D0C /* 과제2-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 28125D5D295A448200908D0C /* 과제2-1.c */; };
 		28125D60295A449200908D0C /* 과제3.c in Sources */ = {isa = PBXBuildFile; fileRef = 28125D5F295A449200908D0C /* 과제3.c */; };
@@ -29,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		28125D51295A445100908D0C /* 알고리즘_과제 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "알고리즘_과제"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28125D54295A445100908D0C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		28125D5B295A447100908D0C /* 과제1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "과제1.c"; sourceTree = "<group>"; };
 		28125D5D295A448200908D0C /* 과제2-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "과제2-1.c"; sourceTree = "<group>"; };
 		28125D5F295A449200908D0C /* 과제3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "과제3.c"; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 		28125D53295A445100908D0C /* 알고리즘_과제 */ = {
 			isa = PBXGroup;
 			children = (
-				28125D54295A445100908D0C /* main.c */,
 				28125D5B295A447100908D0C /* 과제1.c */,
 				28125D5D295A448200908D0C /* 과제2-1.c */,
 				28125D61295A47D200908D0C /* 과제2-2.c */,
@@ -135,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28125D5E295A448200908D0C /* 과제2-1.c in Sources */,
-				28125D55295A445100908D0C /* main.c in Sources */,
 				28125D64295A47E300908D0C /* 과제2-3.c in Sources */,
 				28125D5C295A447100908D0C /* 과제1.c in Sources */,
 				28125D62295A47D200908D0C /* 과제2-2.c in Sources */,
