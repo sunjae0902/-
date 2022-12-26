@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28125D3B295A3CF900908D0C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28125D3A295A3CF900908D0C /* main.c */; };
+		28125D45295A40FD00908D0C /* 과제3.c in Sources */ = {isa = PBXBuildFile; fileRef = 28125D43295A3EE800908D0C /* 과제3.c */; };
+		28125D46295A41F200908D0C /* 과제1.c in Sources */ = {isa = PBXBuildFile; fileRef = 28125D3A295A3CF900908D0C /* 과제1.c */; };
+		28125D47295A41F200908D0C /* 과제2.c in Sources */ = {isa = PBXBuildFile; fileRef = 28125D41295A3ED700908D0C /* 과제2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		28125D37295A3CF900908D0C /* 프로그래밍기초및실습_과제 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "프로그래밍기초및실습_과제"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28125D3A295A3CF900908D0C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		28125D3A295A3CF900908D0C /* 과제1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "과제1.c"; sourceTree = "<group>"; };
+		28125D41295A3ED700908D0C /* 과제2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "과제2.c"; sourceTree = "<group>"; };
+		28125D43295A3EE800908D0C /* 과제3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "과제3.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		28125D39295A3CF900908D0C /* 프로그래밍기초및실습_과제 */ = {
 			isa = PBXGroup;
 			children = (
-				28125D3A295A3CF900908D0C /* main.c */,
+				28125D3A295A3CF900908D0C /* 과제1.c */,
+				28125D41295A3ED700908D0C /* 과제2.c */,
+				28125D43295A3EE800908D0C /* 과제3.c */,
 			);
 			path = "프로그래밍기초및실습_과제";
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28125D3B295A3CF900908D0C /* main.c in Sources */,
+				28125D46295A41F200908D0C /* 과제1.c in Sources */,
+				28125D47295A41F200908D0C /* 과제2.c in Sources */,
+				28125D45295A40FD00908D0C /* 과제3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
