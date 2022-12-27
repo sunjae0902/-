@@ -19,7 +19,7 @@
 #define MAX 1000
 
 
-float cp=2.0;//임계값
+float cp=2.0; //임의로 설정한 임계값
 
 
 
@@ -39,8 +39,9 @@ void initStack(Stack *s){
 }
 //isempty
 int isEmpty(Stack *s){
-    return s->top==NULL; //스택이 비어있다면 참값을 리턴
+    return s->top==NULL; //스택이 비어있다면 TRUE 리턴
 }
+
 //push
 void push(Stack *s,int px,int py,int ind){
     Node *now=(Node *)malloc(sizeof(Node)); // 메모리 동적 할당으로 처음 노드 생성
@@ -61,7 +62,7 @@ int pop(Stack *s){
     return a; //배열 상의 인덱스 반환
 }
 
-double dist(int data[2][MAX],int i,int S, int E){
+double dist(int data[2][MAX],int i,int S, int E){ //두 점을 잇는 직선과 한 점 사이 거리를 구하는 함수
     double a=abs((data[0][i]*(data[1][S]-data[1][E])-data[1][i]*(data[0][S]-data[0][E])-data[0][E]*data[1][S]+data[0][S]*data[1][E]))/sqrt((pow(data[1][E]-data[1][S],2)+pow(data[0][E]-data[0][S],2)));
     return a;
 }
@@ -87,7 +88,7 @@ int main(void){
     
     
     
-    double tdist=sqrt(pow(data[0][0]-data[0][n-1], 2)+pow(data[1][0]-data[1][n-1], 2));
+    double tdist=sqrt(pow(data[0][0]-data[0][n-1], 2)+pow(data[1][0]-data[1][n-1], 2)); //두 점 사이 
     
     if (tdist<=sqrt(2)) //폐곡선인 경우
     {
